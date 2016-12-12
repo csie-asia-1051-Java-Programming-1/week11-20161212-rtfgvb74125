@@ -22,8 +22,11 @@ private static BinTree  bTree;
 				bTree.addNode(v1);
 			}
 			bTree.inOrder(bTree.root);
-				scn.nextLine().charAt(0);
+			System.out.println();
+			System.out.println("輸入y/n");
+			contChar=scn.next().charAt(0);
 			
 		}
+		System.out.println("程式已結束");
 	}
 }
