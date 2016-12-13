@@ -5,7 +5,7 @@ package ex;
 對於每一筆測試資料，輸出一行結果，該行結果列印禮品總花費。倘若預算內無法購 買足夠量的禮物，則列印 “Impossible”，最後必須有換行字元
 
  * Date: 2016/12/12
- * Author: 105021***  ???
+ * Author: 105021056  王家恩
  */
 import java.util.Scanner;
 
