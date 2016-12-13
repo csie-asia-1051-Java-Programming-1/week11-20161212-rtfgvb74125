@@ -5,14 +5,12 @@ package ex;
  */
 import java.util.Scanner;
 import java.text.DecimalFormat;
-import java.text.NumberFormat;
 public class ex02 {
 	public static void main(String[] args) {
 
 		
 		Scanner scn = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("#.000");
-		
 		int size = scn.nextInt();
 		double data[] = new double[size];
 		double x = 0;
