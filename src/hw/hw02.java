@@ -12,6 +12,10 @@ public class hw02 {
 		Scanner scn = new Scanner(System.in);
 		
 		int n = scn.nextInt();
+		int data[] = new int[n];
 		int sum = 0;
+		for(int i = 0;i<n;i++){
+			data[i] = scn.nextInt();
+		}
 	}
 }
