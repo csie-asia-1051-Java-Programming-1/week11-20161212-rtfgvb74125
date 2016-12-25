@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class ex01 {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		int n = scn.nextInt();
+		int n = scn.nextInt();//幾筆資料
 		int t;// 預算
 		int m;// 員工數
 		int k;// 幾種物品
