@@ -10,12 +10,24 @@ public class hw02 {
 	public static void main(String[] args) {
 
 		Scanner scn = new Scanner(System.in);
-		
-		int n = scn.nextInt();
-		int data[] = new int[n];
+		String str = scn.nextLine();
+		String data[] = str.split(" ");
 		int sum = 0;
-		for(int i = 0;i<n;i++){
-			data[i] = scn.nextInt();
+		boolean flag = false;
+		for (int i = 0; i < data.length; i++) {
+			for (int j = 0; j < data.length; j++) {
+				if (data[i].equals(data[j])) {
+					sum++;
+				}
+			}
+			if (sum >= (data.length / 2) && flag==false) {
+				System.out.println(data[i]);
+				flag = true;
+			}
+			sum = 0; 
+		}
+		if(flag==false){
+			System.out.println("NO");
 		}
 	}
 }
